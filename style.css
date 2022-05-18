@@ -5,5 +5,33 @@
 }
 
 body {
-    background-image: ;
+   
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;   
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color:white;
+}
+
+.header-image {
+    background-image: url("C:\Users\lacyn\Downloads\Queenupcustomsworks\Queen Up Web Page\Untitled design (3).png");
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+button {
+    
 }
