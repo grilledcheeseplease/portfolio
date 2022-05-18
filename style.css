@@ -10,19 +10,25 @@ body {
 
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;   
+    margin-bottom: auto;   
 }
 
 header h1 {
     display: inline-block;
     font-size: 48px;
-    color:white;
+    color:black;
+    font-family:, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
 .header-image {
-    background-image: url("C:\Users\lacyn\Downloads\Queenupcustomsworks\Queen Up Web Page\Untitled design (3).png");
+    background-image: url("images/headerbackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
 }
+
 
 header nav {
     padding-top: 15px;
@@ -33,5 +39,11 @@ header nav {
 }
 
 button {
-    
+    padding: 8px 20px;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header nav button:hover {
+    background-color: white;
 }
