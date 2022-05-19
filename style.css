@@ -63,20 +63,20 @@ nav a {
     border-radius: 8px;
     max-width: 40%;
     height: auto;
-    position: sticky;
 }
 
 .content {
     border-style: none;
     border-radius: 12px;
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
     width: 50%;
-    margin-right: 10px;
-    position: absolute;
-    top: 55%;
-    right: 5%;
+    height: 100%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
     background-color: cornsilk;
+
 }
 
 h2 {
@@ -84,3 +84,12 @@ h2 {
     padding-top: 10px;
 }
 
+.card {
+    width: 80%;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+article img {width: 100%}
+  
